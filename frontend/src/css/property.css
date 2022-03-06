@@ -1,0 +1,123 @@
+.property-item {
+    margin-top: 65.96px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 40px 0;
+}
+
+.property-img {
+    width: 47vw;
+    height: 29.375vw;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 8px;
+}
+.imgToggler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.propertyType {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.box {
+    max-width: 700px;
+    min-width: 290px;
+}
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.price-number {
+    font-size: 24px;
+    color: #005d8a;
+}
+.price-decorator {
+    font-size: 21px;
+    color: grey;
+    font-weight: 100;
+}
+
+.right-text {
+    margin: 0px 0px 40px 0px;
+    text-align: left;
+}
+
+.address-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+    color: rgb(47, 47, 47);
+    font-weight: 300;
+}
+
+.price-info {
+    margin: 10px 0px 15px 0px;
+    /* font-size: 32px; */
+    line-height: 1.5;
+}
+
+.features-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    line-height: 1.5;
+    color: #3b3b3b;
+}
+.otherInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 0px;
+    line-height: 1.5;
+    color: #3b3b3b;
+}
+.features-info > div {
+    margin-right: 29px;
+    margin-bottom: 15px;
+}
+.buttons {
+    position: relative;
+    background-color: #fff;
+}
+
+.button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media only screen and (max-width: 991px) {
+    .property-img {
+        width: 60vw;
+        min-width: 340px;
+        height: 37.5vw;
+        min-height: 212.5px;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        border-radius: 8px;
+    }
+}

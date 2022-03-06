@@ -1,0 +1,71 @@
+.card-container {
+    border-radius: 7px;
+    height: 250px;
+    -webkit-box-shadow: 2px 3px 6px -1px rgba(135,135,135,0.78);
+    -moz-box-shadow: 2px 3px 6px -1px rgba(135,135,135,0.78);
+    box-shadow: 2px 3px 6px -1px rgba(135,135,135,0.78);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: 10px 14px;
+}
+.img-container {
+    width: 50%;
+    background-size: cover !important;
+    background-position: center center !important;
+    border-radius: 6px 0px 0px 6px;
+}
+.info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 15px;
+}
+.for_rent {
+    color: #009ee0;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ptype {
+    font-size: 20px;
+    font-family: Montserrat,sans-serif !important;
+    font-weight: 300;
+}
+.price {
+    font-size: 22px;
+    font-weight: 500;
+}
+.permonth {
+    font-weight: 100;
+    font-size: 18px;
+}
+.amenties {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.location {
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+.property-link {
+    background-color: rgb(83, 83, 87);
+    padding: 5px 9px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: whitesmoke;
+    
+}
+.property-link:hover {
+    color: #d1d4d4;
+    text-decoration: none;
+}

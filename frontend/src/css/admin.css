@@ -1,0 +1,67 @@
+.admin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:stretch;
+}
+.admin-sidePanel {
+  min-height: 695px;
+  background-color: #434343;
+  position: relative;
+  
+}
+.panelItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.panelItems > a.itemLink {
+  padding: 10px 15px;
+  color: rgb(224, 224, 224);
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.itemLink.active {
+  background-color: rgb(106, 138, 170);
+}
+.panelItems > a:hover {
+  background-color:rgb(136, 136, 136);
+  text-decoration: none;
+}
+.admin-content {
+  padding: 30px;
+}
+.panel-title {
+  padding: 10px 15px;
+  font-size: 22px;
+  color: whitesmoke;
+  border-bottom: 1px solid rgb(85, 85, 85);
+  text-align: center;
+  
+}
+.action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.admin-content {
+  background-color: lightgrey;
+  flex: 1 0 auto;
+}
+.collapase-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  right: 5px;
+  color: whitesmoke;
+  font-size: 17px;
+  cursor: pointer;
+  z-index: 5;
+}
